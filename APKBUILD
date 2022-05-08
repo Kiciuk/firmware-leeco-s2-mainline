@@ -22,7 +22,7 @@ package() {
 	install -Dm644 modem/modem.* -t "$pkgdir/$_fwdir"
 
 	# video firmware
-	install -Dm644 apnhlos/venus.* -t "$pkgdir/$_fwdir"
+	install -Dm644 apnhlos/venus* -t "$pkgdir/$_fwdir"
 
 	# WiFi/BT firmware
 	install -Dm644 apnhlos/wcnss.* -t "$pkgdir/$_fwdir"
